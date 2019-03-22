@@ -18,7 +18,7 @@ class APIController extends Controller
             $legends[] = $dvdLegend->legend()->language;
         }
 
-        if(count($legends) == 0) $legends = 'Não há legendas disponíveis';
+        if(count($legends) == 0) $legends = ['Não há legendas disponíveis'];
 
         $response = [
             'code' => 200,
