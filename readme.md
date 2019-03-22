@@ -9,6 +9,7 @@
 
 ## Setup
 
+- Run composer update
 - Setup .env with your database credentials
 - Run php artisan migrate
 - Run php artisan serve
