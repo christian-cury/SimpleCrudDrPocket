@@ -13,6 +13,7 @@
 - Setup .env with your database credentials
 - Run php artisan migrate
 - Run php artisan serve
+- Create a account to register new DVD's
 
 ## License
 
